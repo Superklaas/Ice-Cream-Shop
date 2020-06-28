@@ -3,6 +3,8 @@ package be.vdab.sellers;
 public class Stock {
 
     // data fields
+    
+    // Waarden hardcoden in data fields doe je best niet. Dit is specifiek voor een seller, kan je niet op voorhand bepalen in je model.
     private int iceRockets = 1;
     private int cones = 2;
     private int balls = 5;
