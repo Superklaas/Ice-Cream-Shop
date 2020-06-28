@@ -37,6 +37,7 @@ public class PriceList {
     }
     public double getMagnumPrice(MagnumType type) {
         double magnumPrice = magnumStandardPrice;
+        // if en de code block van de if nooit op één lijn, met curly braces!
         if (type == MagnumType.ALPINENUTS) magnumPrice = 1.5*magnumStandardPrice;
         if (type == MagnumType.ROMANTICSTRAWBERRIES) magnumPrice = 2*magnumStandardPrice;
         return magnumPrice;
