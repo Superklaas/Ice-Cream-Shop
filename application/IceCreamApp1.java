@@ -12,6 +12,8 @@ public class IceCreamApp1 {
 
         // object instantiation: pricelist, icecream salon
         PriceList priceList = new PriceList();
+        // In de opgave staat dat je de iceCreamSalon in een variabele van type IceCreamSeller moet steken.
+        // IceCreamSeller iceCreamSalon = new IceCreamSalon(priceList);
         IceCreamSalon iceCreamSalon = new IceCreamSalon(priceList);
 
         // order ice cream
